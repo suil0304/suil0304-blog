@@ -1,0 +1,20 @@
+{
+  "imports": {
+    "@types/react": "npm:@types/react@^19.2.18",
+    "@types/react-dom": "npm:@types/react-dom@^19.2.4",
+    "@types/react-router-dom": "npm:@types/react-router-dom@^5.3.3",
+    "@vitejs/plugin-react": "npm:@vitejs/plugin-react@^6.0.5",
+    "react": "npm:react@^19.2.8",
+    "react-dom": "npm:react-dom@^19.2.8",
+    "react-router-dom": "npm:react-router-dom@^7.18.2",
+    "vite": "npm:vite@^8.2.1",
+    "vite-plugin-sass-dts": "npm:vite-plugin-sass-dts@^1.3.37"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "lib": [
+        "dom"
+    ]
+  }
+}

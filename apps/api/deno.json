@@ -1,0 +1,31 @@
+{
+  "imports": {
+    "@nestjs/common": "npm:@nestjs/common@^11.2.1",
+    "@nestjs/config": "npm:@nestjs/config@^4.0.4",
+    "@nestjs/core": "npm:@nestjs/core@^11.2.1",
+    "@nestjs/mapped-types": "npm:@nestjs/mapped-types@^2.1.1",
+    "@nestjs/platform-express": "npm:@nestjs/platform-express@^11.2.1",
+    "@prisma/adapter-pg": "npm:@prisma/adapter-pg@^7.9.1",
+    "@prisma/client": "npm:@prisma/client@^7.9.1",
+    "@prisma/config": "npm:@prisma/config@^7.9.1",
+    "@types/express": "npm:@types/express@^5.0.6",
+    "@types/node": "npm:@types/node@^26.2.0",
+    "class-transformer": "npm:class-transformer@^0.5.1",
+    "class-validator": "npm:class-validator@^0.15.1",
+    "effect": "npm:effect@^3.22.1",
+    "prisma": "npm:prisma@^7.9.1",
+    "reflect-metadata": "npm:reflect-metadata@^0.2.2",
+    "rxjs": "npm:rxjs@^7.8.2"
+  },
+  "tasks": {
+    "prisma": "deno run -A npm:prisma",
+    "prisma:push": "deno task prisma db push",
+    "prisma:migrate": "deno task prisma migrate dev",
+    "prisma:generate": "deno task prisma generate"
+  },
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "nodeModulesDir": "auto"
+  }
+}

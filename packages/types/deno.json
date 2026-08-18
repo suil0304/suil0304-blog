@@ -1,0 +1,5 @@
+{
+    "name": "@suil0304-blog/types",
+    "version": "0.1.0",
+    "exports": "./index.d.ts"
+}

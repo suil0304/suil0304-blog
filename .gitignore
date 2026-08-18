@@ -1,0 +1,13 @@
+# ide yeah
+.vscode/
+
+# apps
+apps/**/.env
+apps/**/.env.*
+!apps/**/.env.example
+
+# web
+apps/web/src/**/*.d.scss.ts
+
+# api
+apps/api/src/generated

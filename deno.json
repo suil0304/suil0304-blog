@@ -1,0 +1,20 @@
+{
+  "workspace": [
+    "./apps/web",
+    "./apps/api",
+    "./packages/types"
+  ],
+  "imports": {
+    "@suil0304-blog/types": "./packages/types"
+  },
+	"tasks": {
+    
+	},
+  "compilerOptions": {
+    "strict": true
+  },
+  "allowScripts": {
+    "allow": [],
+    "deny": ["npm:@prisma/engines@7.9.1", "npm:prisma@7.9.1"]
+  }
+}
