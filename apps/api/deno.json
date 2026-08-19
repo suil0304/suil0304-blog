@@ -27,5 +27,8 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "nodeModulesDir": "auto"
+  },
+  "allowScripts": {
+    "deny": ["npm:@prisma/engines@7.9.1", "npm:prisma@7.9.1"]
   }
 }

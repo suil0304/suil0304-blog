@@ -15,6 +15,10 @@
     "jsxImportSource": "react",
     "lib": [
         "dom"
+    ],
+    "types": [
+      "vite/client",
+      "@suil0304-blog/types/web"
     ]
   }
 }

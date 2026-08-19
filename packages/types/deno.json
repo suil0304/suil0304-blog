@@ -1,5 +1,10 @@
 {
     "name": "@suil0304-blog/types",
     "version": "0.1.0",
-    "exports": "./index.d.ts"
+    "exports": {
+        ".": "./index.ts",
+        "./web": "./web/index.ts",
+        "./api": "./api/index.ts",
+        "./shared": "./shared/index.ts"
+    }
 }
